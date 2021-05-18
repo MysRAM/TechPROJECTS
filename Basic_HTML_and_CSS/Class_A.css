@@ -2,7 +2,12 @@ body {
 	font-style: italic;
 	text-align: center;
 }
-
+.Class_A {
+color: blue;
+body {
+	font-style: italic;
+	text-align: center;
+}
 .Class_A {
 color: blue;
 }

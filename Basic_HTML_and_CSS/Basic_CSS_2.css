@@ -3,4 +3,9 @@ p {
 	background: black;
 	front-weighted: bold;
 	text-align: center;
+p {
+	color: snow
+	background: black;
+	front-weighted: bold;
+	text-align: center;
 }
