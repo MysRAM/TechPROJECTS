@@ -17,3 +17,7 @@ This folder includes a code for an example home page for a site to learn Tarot. 
 ### **PROJECTCinema**
 
 This folder includes code for an example home page for a movie theatre that is styled using Bootstrap 4.  It contains many Bootstrap components including but not limited to a navbar, jumbotron, form, cards, and dropdowns.
+
+### **PORTFOLIO**
+
+This folder includes code for a published website.
