@@ -5,7 +5,7 @@ function openModal() {
 
 //close the modal
 function closeModal() {
-    document.getElementById("myModal").style.display = "none";
+    document.getElementById("closeModal").style.display = "none";
 }
 
 var slideIndex = 1;
