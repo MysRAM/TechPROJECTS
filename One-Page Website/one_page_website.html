@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="./css/one_page_website.css">
-	<script src="./js/one_page_website.js" defer></script>
 	<!-- HEAD -->
 	<head>
 		<title>SacredACCESS|Alchemy</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="./css/one_page_website.css">
+		<script src="./js/one_page_website.js" defer></script>
 	</head>
 	<!-- END HEAD -->
 	
@@ -27,26 +27,17 @@
 			<h1>SacredSEEDS</h1>
 			<em>Personalized attention For all your healing needs</em>
 		</header>
-		
-		<!-- HOME -->
-		<div id="home">
-			<div>
-				<div>
-				<span>SacredACCESS|1:1</span>
-			</div>
-		</div>
-	<!-- END HOME -->
 	
 	<!-- SacredSEEDS -->
 	<section>
-		<div id="SacredSEEDS">
+		<div id="home">
 			<h1>About SacredSPACE</h1>
 			<div>
 			
 			<!-- PHOTO CONTAINER 1 -->
 			<div class="photo-container">
 				<div class="photo">
-					<img src="https://www.pexels.com/photo/purple-and-blue-sky-2291873/" alt="SacredSPACE">
+					<img src="./images/photo3.jpeg" alt="SacredSPACE">
 					<div class="photo-overlay">
 						<h3>What is SacredSPACE?</h3>
 						<p>Space dedicated to Spirit Embodiment, to commune with one's True Self, Deity and/or their multidimensional team.
@@ -59,7 +50,7 @@
 			<!-- PHOTO CONTAINER 2 -->
 			<div class="photo-container">
 				<div class="photo">
-					<img src="https://www.pexels.com/photo/gray-and-black-galaxy-wallpaper-2150/" alt="SacredSPACE Offerings">
+					<img src="./images/photo2.jpeg" alt="SacredSPACE Offerings">
 					<div>
 						<h3>When is SacredSPACE required?</h3>
 						<p>Do you feel like something is wrong, like something has been preventing you from fulling living your best life? 
@@ -74,7 +65,7 @@
 			<!-- PHOTO CONTAINER 3 -->
 			<div class="photo-container">
 				<div class="photo">
-					<img src="https://www.pexels.com/photo/silhouette-of-person-holding-glass-mason-jar-1274260/" alt="SacredSPACE Requests">
+					<img src="./images/photo1.jpeg" alt="SacredSPACE Requests">
 					<div>
 						<h3>Do you need SacredSPACE services?</h3>
 						<p>It is a container that gives one space to embody spirit, to commune with their True Selves, Deity & their multidimensional team.
@@ -88,70 +79,72 @@
 
 	<!--Images used to open lightbox-->
 	<section>
-		<div class="row">
-			<div class="coloumn">
-				<img src="./images/img1.jpeg" onclick="openModal();currentSlide(1)" class="hover-shadow">
-			</div>
-			<div class="coloumn">
-				<img src="./images/img2.jpeg" onclick="openModal();currentSlide(2)" class="hover-shadow">
-			</div>
-			<div class="coloumn">
-				<img src="./images/img3.jpeg" onclick="openModal();currentSlide(3)" class="hover-shadow">
-			</div>
-			<div class="coloumn">
-				<img src="./images/img4.jpeg" onclick="openModal();currentSlide(4)" class="hover-shadow">
-			</div>
-		</div>
-
-		<!-- The Modal/Lighbox -->
-		<div id="myModal" class="modal">
-			<span class="close cursor" onclick="closeModal()">&times;</span>
-			<div class="modal-content">
-
-				<div class="mySlides">
-					<div class="numbertext">1 / 4</div>
-					<img src="./images/img1_wide.jpg" style="width:100%">
+			<div class="row">
+				<div class="coloumn">
+					<img src="./images/img1.jpeg" onclick="openModal();currentSlide(1)" class="hover-shadow">
 				</div>
-
-				<div class="mySlides">
-					<div class="numbertext">2 / 4</div>
-					<img src="./images/img1wide.jpeg" style="width:100%">
+				<div class="coloumn">
+					<img src="./images/img2.jpeg" onclick="openModal();currentSlide(2)" class="hover-shadow">
 				</div>
-
-				<div class="mySlides">
-					<div class="numbertext">3 / 4</div>
-					<img src="./images/img3wide.jpeg" style="width:100%">
+				<div class="coloumn">
+					<img src="./images/img3.jpeg" onclick="openModal();currentSlide(3)" class="hover-shadow">
 				</div>
+				<div class="coloumn">
+					<img src="./images/img4.jpeg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+				</div>
+			</div>
 
-				<div class="mySlides">
+			<!-- The Modal/Lighbox -->
+			<div id="about">
+			<div id="myModal" class="modal">
+				<span class="close cursor" onclick="closeModal()">&times;</span>
+				<div class="modal-content">
+
+					<div class="mySlides">
+						<div class="numbertext">1 / 4</div>
+						<img src="./images/img1_wide.jpg" style="width:100%">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">2 / 4</div>
+						<img src="./images/img1wide.jpeg" style="width:100%">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">3 / 4</div>
+						<img src="./images/img3wide.jpeg" style="width:100%">
+					</div>
+
+					<div class="mySlides">
 					<div class="numbertext">4 / 4</div>
-					<img src="./images/img4wide.jpeg" style="width:100%">
-				</div>
+						<img src="./images/img4wide.jpeg" style="width:100%">
+					</div>
 
-				<!-- Next/previous controls -->
-				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+					<!-- Next/previous controls -->
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-				<!--Caption text-->
-				<div class="caption-container">
-					<p id="caption"></p>
-				</div>
+					<!--Caption text-->
+					<div class="caption-container">
+						<p id="caption"></p>
+					</div>
 
-				<!-- Thumbnail image controls -->
-				<div class="column">
-					<img class="demo" src="./images/img1.jpeg" onclick="currentSlide(1)" alt="Nature">
-				</div>
+					<!-- Thumbnail image controls -->
+					<div class="column">
+						<img class="demo" src="./images/img1.jpeg" onclick="currentSlide(1)" alt="Nature">
+					</div>
 
-				<div class="column">
-					<img class="demo" src="./images/img2.jpeg" onclick="currentSlide(1)" alt="Nature">
-				</div>
+					<div class="column">
+						<img class="demo" src="./images/img2.jpeg" onclick="currentSlide(1)" alt="Nature">
+					</div>
 
-				<div class="column">
-					<img class="demo" src="./images/img3.jpeg" onclick="currentSlide(1)" alt="Nature">
-				</div>
+					<div class="column">
+						<img class="demo" src="./images/img3.jpeg" onclick="currentSlide(1)" alt="Nature">
+					</div>
 
-				<div class="column">
-					<img class="demo" src="./images/img4.jpeg" onclick="currentSlide(1)" alt="Nature">
+					<div class="column">
+						<img class="demo" src="./images/img4.jpeg" onclick="currentSlide(1)" alt="Nature">
+					</div>
 				</div>
 			</div>
 		</div>
@@ -187,4 +180,13 @@
 				</div>
 			</div>
 	</section>	
-	<!-- END RSVP ->
+	<!-- END RSVP -->
+	<!-- footer -->
+	<section>
+		<footer>
+			<p>Author: MysRAM<br>
+			<a href="mailto:s8cred.access@gmail.com">s8cred.access@gmail.com</a></p>
+		</footer>
+	</section>
+
+	</body>

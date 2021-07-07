@@ -1,6 +1,6 @@
 //open the modal
 function openModal() {
-    document.getElementById("myModal").style.display = "block";
+    document.getElementById("openModal").style.display = "block";
 }
 
 //close the modal
