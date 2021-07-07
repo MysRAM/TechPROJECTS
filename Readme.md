@@ -9,6 +9,8 @@ This is a display of samply websites that i made using HTML and CSS.
 
 * TarotSHOP
 * PROJECTCinema
+* OnePAGEwebsite
+* [PORTFOLIO](https://mysram.github.io/)
 
 ### **TarotSHOP**
 
@@ -17,6 +19,9 @@ This folder includes a code for an example home page for a site to learn Tarot. 
 ### **PROJECTCinema**
 
 This folder includes code for an example home page for a movie theatre that is styled using Bootstrap 4.  It contains many Bootstrap components including but not limited to a navbar, jumbotron, form, cards, and dropdowns.
+
+### **OnePAGEwebsite**
+This folder includes code for an example one page website for a Holistic Healing Center.
 
 ### **PORTFOLIO**
 
