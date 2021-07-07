@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="./css/one_page_website.css">;
+	<link rel="stylesheet" href="./css/one_page_website.css">
+	<script src="./js/one_page_website.js" defer></script>
 	<!-- HEAD -->
 	<head>
-		<title>SacredACCESS|1:1</title>
+		<title>SacredACCESS|Alchemy</title>
 	</head>
 	<!-- END HEAD -->
 	
@@ -23,24 +24,24 @@
 	<!-- BODY -->
 	<body>
 		<header>
-			<h1>SacredSPACE</h1>
+			<h1>SacredSEEDS</h1>
 			<em>Personalized attention For all your healing needs</em>
 		</header>
 		
 		<!-- HOME -->
 		<div id="home">
 			<div>
-				<iframe width="420" height="345" src="https://www.youtube.com/embed/fRHWtOR6DQA"></iframe>
 				<div>
-					<span>SacredACCESS|1:1</span>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/U9HtZFb_VtM?controls=0"></iframe>
 				</div>
+				<span>SacredACCESS|1:1</span>
 			</div>
 		</div>
 	<!-- END HOME -->
 	
-	<!-- GALLERY 1 | Major Arcana -->
+	<!-- SacredSEEDS -->
 	<section>
-		<div id="about">
+		<div id="SacredSEEDS">
 			<h1>About SacredSPACE</h1>
 			<div>
 			
@@ -84,6 +85,79 @@
 				</div>
 			</div>
 			<!-- END PHOTO CONTAINER 3 -->
+		</div>
+	</section>	
+
+	<!--Images used to open lightbox-->
+	<section>
+		<div class="row">
+			<div class="colomn">
+				<img src="img1.jpg:sample" onclick="openModal();currentSlide(1)" class="hover-shadow">
+			</div>
+			<div class="colomn">
+				<img src="img2.jpg:sample" onclick="openModal();currentSlide(2)" class="hover-shadow">
+			</div>
+			<div class="colomn">
+				<img src="img3.jpg:sample" onclick="openModal();currentSlide(3)" class="hover-shadow">
+			</div>
+			<div class="colomn">
+				<img src="img4.jpg:sample" onclick="openModal();currentSlide(4)" class="hover-shadow">
+			</div>
+		</div>
+
+		<!-- The Modal/Lighbox -->
+		<div id="myModal" class="modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+
+				<div class="mySlides">
+					<div class="numbertext">1 / 4</div>
+					<img src="img1_wide.jpg:sample" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">2 / 4</div>
+					<img src="img2_wide.jpg:sample" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">3 / 4</div>
+					<img src="img3_wide.jpg:sample" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">4 / 4</div>
+					<img src="img4_wide.jpg:sample" style="width:100%">
+				</div>
+
+				<!-- Next/previous controls -->
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+				<!--Caption text-->
+				<div class="caption-container">
+					<p id="caption"></p>
+				</div>
+
+				<!-- Thumbnail image controls -->
+				<div class="column">
+					<img class="demo" src="img1.jpg:sample" onclick="currentSlide(1)" alt="Nature">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="img2.jpg:sample" onclick="currentSlide(1)" alt="Nature">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="img3.jpg:sample" onclick="currentSlide(1)" alt="Nature">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="img4.jpg:sample" onclick="currentSlide(1)" alt="Nature">
+				</div>
+			</div>
+		</div>
+	</section>
 	
 	<!-- RSVP -->
 	<section>
