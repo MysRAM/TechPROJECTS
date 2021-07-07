@@ -1,11 +1,11 @@
 //open the modal
 function openModal() {
-    document.getElementById("openModal").style.display = "block";
+    document.getElementById("myModal").style.display = "block";
 }
 
 //close the modal
 function closeModal() {
-    document.getElementById("closeModal").style.display = "none";
+    document.getElementById("myModal").style.display = "none";
 }
 
 var slideIndex = 1;
