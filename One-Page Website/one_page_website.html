@@ -4,6 +4,7 @@
 	<head>
 		<title>SacredACCESS|Alchemy</title>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="./css/one_page_website.css">
 		<script src="./js/one_page_website.js" defer></script>
 	</head>
@@ -14,7 +15,7 @@
 		<div>
 			<nav>
 				<a href="#home">HOME</a> |
-				<a href="#about">ABOUT</a> |
+				<a href="#myModal">MyModal</a> |
 				<a href="#Request_SacredSPACE">CONTACT</a>
 			</nav>
 		</div>
@@ -37,7 +38,7 @@
 			<!-- PHOTO CONTAINER 1 -->
 			<div class="photo-container">
 				<div class="photo">
-					<img src="./images/photo3.jpeg" alt="SacredSPACE">
+					<img src="./images/img1.jpeg" alt="SacredSPACE">
 					<div class="photo-overlay">
 						<h3>What is SacredSPACE?</h3>
 						<p>Space dedicated to Spirit Embodiment, to commune with one's True Self, Deity and/or their multidimensional team.
@@ -50,7 +51,7 @@
 			<!-- PHOTO CONTAINER 2 -->
 			<div class="photo-container">
 				<div class="photo">
-					<img src="./images/photo2.jpeg" alt="SacredSPACE Offerings">
+					<img src="./images/img2wide.jpeg" alt="SacredSPACE Offerings">
 					<div>
 						<h3>When is SacredSPACE required?</h3>
 						<p>Do you feel like something is wrong, like something has been preventing you from fulling living your best life? 
@@ -65,7 +66,7 @@
 			<!-- PHOTO CONTAINER 3 -->
 			<div class="photo-container">
 				<div class="photo">
-					<img src="./images/photo1.jpeg" alt="SacredSPACE Requests">
+					<img src="./images/img4wide.jpeg" alt="SacredSPACE Requests">
 					<div>
 						<h3>Do you need SacredSPACE services?</h3>
 						<p>It is a container that gives one space to embody spirit, to commune with their True Selves, Deity & their multidimensional team.
@@ -80,34 +81,35 @@
 	<!--Images used to open lightbox-->
 	<section>
 			<div class="row">
+				<h2>SacredSEEDS</h2>
+				<p>For all your starseeded needs</p>
 				<div class="coloumn">
-					<img src="./images/img1.jpeg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+					<img src="./images/img2.jpeg" style="width:100% ; cursor:pointer" onclick="openModal();currentSlide(1)" class="hover-shadow">
 				</div>
 				<div class="coloumn">
-					<img src="./images/img2.jpeg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+					<img src="./images/img3.jpeg" style="width:100% ; cursor:pointer" onclick="openModal();currentSlide(2)" class="hover-shadow">
 				</div>
 				<div class="coloumn">
-					<img src="./images/img3.jpeg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+					<img src="./images/img3wide.jpeg" style="width:100% ; cursor:pointer" onclick="openModal();currentSlide(3)" class="hover-shadow">
 				</div>
 				<div class="coloumn">
-					<img src="./images/img4.jpeg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+					<img src="./images/img1_wide.jpg" style="width:100% ; cursor:pointer" onclick="openModal();currentSlide(4)" class="hover-shadow">
 				</div>
 			</div>
 
 			<!-- The Modal/Lighbox -->
-			<div id="about">
 			<div id="myModal" class="modal">
 				<span class="close cursor" onclick="closeModal()">&times;</span>
 				<div class="modal-content">
 
-					<div class="mySlides">
+					<div class="mySlides" style="max-width:1200px">
 						<div class="numbertext">1 / 4</div>
-						<img src="./images/img1_wide.jpg" style="width:100%">
+						<img src="./images/img2.jpeg" style="width:100%">
 					</div>
 
 					<div class="mySlides">
 						<div class="numbertext">2 / 4</div>
-						<img src="./images/img1wide.jpeg" style="width:100%">
+						<img src="./images/img3.jpeg" style="width:100%">
 					</div>
 
 					<div class="mySlides">
@@ -116,8 +118,8 @@
 					</div>
 
 					<div class="mySlides">
-					<div class="numbertext">4 / 4</div>
-						<img src="./images/img4wide.jpeg" style="width:100%">
+						<div class="numbertext">4 / 4</div>
+						<img src="./images/img1_wide.jpg" style="width:100%">
 					</div>
 
 					<!-- Next/previous controls -->
@@ -131,10 +133,6 @@
 
 					<!-- Thumbnail image controls -->
 					<div class="column">
-						<img class="demo" src="./images/img1.jpeg" onclick="currentSlide(1)" alt="Nature">
-					</div>
-
-					<div class="column">
 						<img class="demo" src="./images/img2.jpeg" onclick="currentSlide(1)" alt="Nature">
 					</div>
 
@@ -143,7 +141,11 @@
 					</div>
 
 					<div class="column">
-						<img class="demo" src="./images/img4.jpeg" onclick="currentSlide(1)" alt="Nature">
+						<img class="demo" src="./images/img3wide.jpeg" onclick="currentSlide(1)" alt="Nature">
+					</div>
+
+					<div class="column">
+						<img class="demo" src="./images/img1_wide.jpg" onclick="currentSlide(1)" alt="Nature">
 					</div>
 				</div>
 			</div>
