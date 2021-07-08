@@ -23,12 +23,12 @@ function currentSlide(n) {
 
 function showSlides(n) {
     var i;
-    var x = document.getElementByClassName("mySlides");
-    var dots = document.getElementByClassName("demo");
-    var captionText = document.getElementByName("caption");
+    var x = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    var captionText = document.getElementsByName("caption");
     if (n > x.length) {slideIndex = 1}
     if (n < 1) {slideIndex = x.length}
-    for (i = 0; i < slides.length; i++) {
+    for (i = 0; i < x.length; i++) {
         x[i].style.display = "none";
     }
     for (i = 0; i < dots.length; i++) {
