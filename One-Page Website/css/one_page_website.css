@@ -11,13 +11,21 @@
 }
 
 
-.photo-container {
+.photo-container,
+.photo {
     margin-top: 50px;
     margin-bottom: 50px;
     margin-right: 75px;
     margin-left: 75px;
     border: 2px solid rgb(15, 0, 0);
     border-radius: 4px
+}
+
+.photo {
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+    position: auto;
 }
 
 /*photomodal*/
@@ -86,14 +94,14 @@
 
 /* uniform images */
 .demo {
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
     border-radius: 20px;
 }
 
 .coloumn {
-     width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
     border-radius: 20px;
 }
 
