@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>jQuery Demo</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	</head>
+	
+    <script>
+	$(document).ready(function(){
+		$("html").append(
+            "<body>\
+                <div id='container'>\
+                    <div id='inner'>\
+                        <h1>Basic jQuery</h1>\
+                        <button id='1'>Paragraph 1</button>\
+                        <button id='2'>Paragraph 2</button>\
+                        <button id='3'>Paragraph 3</button>\
+                    </div>\
+                </div>\
+            </body>"   
+        );
+        $("#1").click(function() {
+            console.log("You clicked a paragraph")
+        })
+		$("#2").css({"color":"red"});
+		$("#3").click(function() {
+			$('h1').hide(500);
+            $('h1').show(500)
+		});
+    });
+    </script>
+
+    <!-- event setup using a convenience -->
+    <script>
+    $("p").click(function() {
+        console.log("you clicked a paragraph!");
+    });
+    </script>
+
+    <!-- hide paragraphs-->
+    <script>
+    $("p").hide();
+    
+    </script>
+</html>
